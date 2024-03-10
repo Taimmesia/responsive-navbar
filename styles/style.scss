@@ -6,3 +6,24 @@ body {
   overflow: hidden;
   background-color: dodgerblue;
 }
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 13px 17px;
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: darkgray;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: aquamarine;
+  color: pink;
+}
