@@ -1,3 +1,5 @@
+@import "./variables";
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -48,7 +50,7 @@ body {
   top: 0.75rem;
   right: 1rem;
   display: none;
-  flex-direction: column;
+  flex-direction: $flexDir;
   justify-content: space-between;
   width: 30px;
   height: 20px;
@@ -70,12 +72,12 @@ body {
     display: flex;
   }
   .navbar {
-    flex-direction: column;
+    flex-direction: $flexDir;
     align-items: flex-start;
   }
   .nav-links ul {
     width: 100%;
-    flex-direction: column;
+    flex-direction: $flexDir;
   }
   .nav-links li a {
     padding: 0.5rem 1rem;
